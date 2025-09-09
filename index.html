@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>WireGuard®: Официальный сайт | Настройка и конфигурации</title>
+    <meta name="description" content="Официальное руководство по WireGuard® VPN. Узнайте всё о протоколе, его преимуществах и сложностях настройки. Получите готовую конфигурацию для любого устройства через наш сервис быстрой настройки.">
+    <meta name="keywords" content="wireguard, официальный сайт wireguard, настройка wireguard, конфигурация wireguard, скачать wireguard, wireguard vpn, ключ wireguard, vpn для windows, vpn для android, обход блокировок, безопасный vpn, как настроить vpn">
+    <link rel="canonical" href="https://wireguard-vpn.github.io/"> <!-- Замените на ваш будущий домен -->
+
+    <!-- Open Graph для соцсетей -->
+    <meta property="og:title" content="Wireguard: Официальный сайт">
+    <meta property="og:description" content="Полная свобода в сети с Wireguard. Безопасное и стабильное соединение для всех ваших устройств.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wireguard-vpn.github.io/">
+    <meta property="og:image" content="https://wireguard-vpn.github.io/img/wireguard_big_logo.png"> <!-- Полный путь к вашему изображению --> 
+    <meta name="yandex-verification" content="f408d20b5446e341" />
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=104079369', 'ym');
+
+    ym(104079369, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/104079369" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="icon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="icon/favicon.svg" />
+    <link rel="shortcut icon" href="icon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png" />
+    <link rel="manifest" href="icon/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header" id="top">
+        <div class="container">
+            <nav class="main-nav">
+                <a href="#top" class="logo">
+                    <img src="img/wireguard_big_logo.png" alt="Официальный логотип WireGuard VPN">
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#about">О протоколе</a></li>
+                    <li><a href="#challenge">Сложности настройки</a></li>
+                    <li><a href="#solution">Простое решение</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- ============== НОВАЯ КРАСИВАЯ HERO-СЕКЦИЯ ============== -->
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1>WireGuard®: VPN нового поколения</h1>
+                    <p class="subtitle">Официальная информация о самом быстром, простом и безопасном протоколе. Защитите свой интернет-трафик с помощью передовых технологий шифрования.</p>
+                    <div class="hero-actions">
+                         <a href="#solution" class="btn btn-primary btn-large" target="">Простой способ настройки</a>
+                         <a href="#about" class="btn btn-secondary btn-large">Узнать больше</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container">
+                <h2>Что такое WireGuard?</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p><strong>WireGuard® — это революция в мире VPN-технологий.</strong> В отличие от устаревших и громоздких протоколов, таких как OpenVPN и IPsec, он был спроектирован с нуля для обеспечения высочайшей производительности и простоты. Его кодовая база содержит всего около 4000 строк, что делает его не только чрезвычайно быстрым, но и легким для аудита безопасности.</p>
+                        <p>Этот современный VPN протокол использует передовую криптографию для создания безопасного туннеля между вашим устройством и интернетом. Настройка WireGuard напоминает обмен SSH-ключами: просто, понятно и надежно. Он идеально подходит как для защиты личных данных, так и для обеспечения стабильного соединения в корпоративных сетях.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="img/Banner-1.png" alt="Схема работы безопасного VPN туннеля">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Секция о сложностях -->
+        <section class="benefits" id="challenge">
+            <div class="container">
+                 <h2>Трудности самостоятельной настройки</h2>
+                 <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <h3>Аренда сервера</h3>
+                        <p>Необходимо самостоятельно выбрать, арендовать и оплачивать виртуальный сервер (VPS), что требует дополнительных знаний и расходов.</p>
+                    </div>
+                     <div class="benefit-card">
+                        <h3>Работа в консоли</h3>
+                        <p>Вся конфигурация сервера, включая установку ПО и настройку сети, происходит через командную строку Linux. Одна ошибка может все сломать.</p>
+                    </div>
+                     <div class="benefit-card">
+                        <h3>Управление ключами</h3>
+                        <p>Требуется вручную генерировать и безопасно распределять криптографические ключи для сервера и каждого вашего устройства.</p>
+                    </div>
+                 </div>
+            </div>
+        </section>
+
+        <!-- Секция "Простое решение" -->
+        <section class="cta-main" id="solution">
+            <div class="container">
+                <h2>Не получилось или нет времени разбираться?</h2>
+                <p class="cta-subtitle">Если вы столкнулись с трудностями или просто хотите получить результат за 1 минуту — воспользуйтесь нашим сервисом быстрой настройки. Мы автоматизировали весь сложный процесс.</p>
+                
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <h4>Бесплатный пробный период</h4>
+                        <p>Активируйте бесплатный тест на 3 дня и оцените скорость и стабильность наших серверов.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>Неограниченное количество устройств</h4>
+                        <p>Используйте одну полученную конфигурацию для защиты всех ваших гаджетов — от смартфона до ПК.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>Максимальный обход блокировок</h4>
+                        <p>Наши серверы и конфигурации оптимизированы для работы в условиях самых сложных блокировок.</p>
+                    </div>
+                    <div class="feature-item">
+                        <h4>Безлимитный трафик</h4>
+                        <p>Смотрите видео, скачивайте файлы и пользуйтесь интернетом без каких-либо ограничений по скорости или объему.</p>
+                    </div>
+                </div>
+
+                <a href="https://t.me/vpntesla_bot?start=wireguard" class="btn btn-primary btn-large cta-button" target="_blank">Получить конфигурацию в Telegram</a>
+            </div>
+        </section>
+        
+        <!-- FAQ Section -->
+        <section class="faq" id="faq">
+            <div class="container">
+                <h2>Частые вопросы</h2>
+                <div class="faq-accordion">
+                    <details>
+                        <summary>За что я плачу, если протокол WireGuard бесплатный?</summary>
+                        <p>Вы платите не за протокол, а за услугу и инфраструктуру. Мы берем на себя все расходы и сложную работу: арендуем мощные серверы в разных странах, настраиваем их, обеспечиваем круглосуточную поддержку и оптимизируем для обхода блокировок. Вы платите за удобство и экономию своего времени.</p>
+                    </details>
+                    <details>
+                        <summary>Что именно я получу в Telegram-боте?</summary>
+                        <p>Бот мгновенно сгенерирует для вас персольную ссылку подписку. Вам останется только добавить его в любое приложение на вашем устройстве (бот предоставит все ссылки и инструкции). Весь процесс занимает не более 2 минут.</p>
+                    </details>
+                    <details>
+                        <summary>Насколько это безопасно и конфиденциально?</summary>
+                        <p>Абсолютно. Вы используете всю мощь шифрования оригинального протокола WireGuard. Наш сервис лишь автоматизирует процесс выдачи ключей. Мы придерживаемся строгой политики отсутствия логов (no-logs policy), поэтому ваша активность в сети остается полностью вашей тайной.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="copyright">© 2025 The WireGuard Project. Информация на сайте предоставлена в ознакомительных целях. WireGuard® является зарегистрированным товарным знаком Джейсона А. Доненфельда.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
